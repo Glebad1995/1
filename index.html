@@ -79,7 +79,7 @@
             </div>
           </div>
           <div class="navbar__actions">
-            <ul class="navbar__menu">
+            <ul class="navbar__menu navbar__menu-mobile">
               <li>
                 <a href="/solutions">Solutions</a>
               </li>
@@ -98,6 +98,8 @@
               <li>
                 <a href="/blog">Blog</a>
               </li>
+              <button class="close-btn" id="menu-close">&times;</button>
+
             </ul>
             <a
               href="/login"
@@ -426,6 +428,50 @@
       utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js"
     });
   });
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    console.log("JS загружен и работает ✅");
+
+    const menuToggle = document.getElementById("menu-toggle");
+    const menuClose = document.getElementById("menu-close");
+    const menu = document.querySelector(".navbar__menu-mobile");
+
+    if (!menuToggle) {
+      console.error("❌ Ошибка: элемент с id='menu-toggle' не найден");
+    } else {
+      console.log("✔️ Найден элемент #menu-toggle");
+    }
+
+    if (!menuClose) {
+      console.error("❌ Ошибка: элемент с id='menu-close' не найден");
+    } else {
+      console.log("✔️ Найден элемент #menu-close");
+    }
+
+    if (!menu) {
+      console.error("❌ Ошибка: элемент с классом '.navbar__menu-mobile' не найден");
+    } else {
+      console.log("✔️ Найден элемент .navbar__menu-mobile");
+    }
+
+    // Открытие меню
+    menuToggle.addEventListener("click", function () {
+      console.log("🔥 Клик по #menu-toggle");
+      menu.classList.add("active");
+      console.log("✅ Меню открыто");
+    });
+
+    // Закрытие меню
+    menuClose.addEventListener("click", function () {
+      console.log("❌ Клик по #menu-close");
+      menu.classList.remove("active");
+      console.log("✅ Меню закрыто");
+    });
+  });
+
+
+
+
 </script>
 
 </html>

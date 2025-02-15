@@ -25,6 +25,26 @@
   }
   .navbar__menu {
     display: none;
+    position: absolute;
+    flex-flow: column;
+    z-index: 999;
+    background: white;
+    padding: 20px;
+    left: 0;
+    top: -5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .navbar__menu.active {
+    display: flex;
+  }
+  .close-btn {
+    position: absolute;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    top: 0;
   }
   .navbar__login {
     padding: 0;
