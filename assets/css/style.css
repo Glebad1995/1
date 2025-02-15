@@ -225,7 +225,7 @@ main {
 .image-container {
   border-radius: 32px;
   padding: 16px;
-  flex: 1;
+  /* flex: 1; */
   position: relative;
 }
 
