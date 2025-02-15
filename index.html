@@ -10,304 +10,422 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/css/intlTelInput.css">
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/intlTelInput.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style-mobile.css">
 </head>
 </style>
 
 <body>
-  <div class="container">
-    <nav class="navbar">
-      <div class="navbar__logo">
-        <img
-          class="navbar__logo-icon"
-          src="assets/img/logo.svg"
-          alt="Logo" />
-        <img
-          class="navbar__logo-text"
-          src="assets/img/logo-text.svg"
-          alt="Brand Name" />
-      </div>
+  <main>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-desktop">
+          <div class="navbar__logo">
+            <img
+              class="navbar__logo-icon"
+              src="assets/img/logo.svg"
+              alt="Logo" />
+            <img
+              class="navbar__logo-text"
+              src="assets/img/logo-text.svg"
+              alt="Brand Name" />
+          </div>
 
-      <div class="navbar__actions">
-        <ul class="navbar__menu">
-          <li>
-            <a href="/solutions">Solutions</a>
-          </li>
-          <li>
-            <a href="/products">Products</a>
-          </li>
-          <li>
-            <a href="/cases">Cases</a>
-          </li>
-          <li>
-            <a href="/tariffs">Tariffs</a>
-          </li>
-          <li>
-            <a href="/partners">Partners</a>
-          </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-        </ul>
-        <a
-          href="/login"
-          class="navbar__login">Log in</a>
-        <a
-          href="/request-demo"
-          class="navbar__demo">Request Demo</a>
-      </div>
-    </nav>
-  </div>
-  <div class="container">
-    <div class="hero-section">
-      <img class="hero-section__background" src="assets/img/background-header.png" alt="Digital Agency Background" />
-      <div class="hero-section__text">
-        A digital agency that helps businesses reach their full potential online
-      </div>
-      <div class="hero-section__button-container">
-        <a href="/request-demo" class="hero-section__button">Request Demo</a>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="content-wrapper">
-      <div class="text-block">
-        <div class="headline">
-          Helping businesses improve their online presence.
-        </div>
-        <div class="description">
-          With years of experience in SEO, digital marketing, and reputation
-          management, our team is dedicated to assisting clients in achieving
-          success. We take great pride in consistently delivering top-notch work.
-        </div>
-      </div>
-      <div class="image-block-header">
-        <img class="image" src="assets/img/image-right.png" alt="SEO and Digital Marketing" />
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="api-card">
-      <div class="image-container">
-        <img
-          class="main-image"
-          src="assets/img/Image-Left.png"
-          alt="Pinomap API Illustration" />
-      </div>
-      <div class="content-container">
-        <div class="icon-wrapper">
-          <img
-            class="api-icon"
-            src="assets/img/icons/api.svg"
-            alt="API Integration Icon" />
-        </div>
-        <div class="api-title">Pinomap API</div>
-        <div class="api-description">
-          Allows companies to efficiently work with various map services.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="business-card">
-      <div class="content-block">
-        <div class="icon-container">
-          <img class="google-icon" src="assets/img/icons/uit_google.svg" alt="Google Business Icon" />
-        </div>
-        <div class="title">Google Business Bulk</div>
-        <div class="description">
-          With bulk verification, a chain business is deemed eligible to add
-          locations without requiring additional manual verification.
-        </div>
-      </div>
-      <div class="image-block">
-        <img class="main-image" src="assets/img/Image-Right-1.png" alt="Google Business Bulk Illustration" />
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="review-card">
-      <div class="image-container">
-        <img class="review-main-image" src="assets/img/image-left-1.png" alt="Review Management Illustration" />
-      </div>
-      <div class="content-container">
-        <div class="icon-wrapper">
-          <img class="review-icon" src="assets/img/icons/circum_star.svg" alt="Review Star Icon" />
-        </div>
-        <div class="title">Review Management</div>
-        <div class="description">
-          Review management in the Google ecosystem comes down to managing your Google Business Profiles reviews.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="center">
-      <div class="button-wrapper">
-        <div class="button-text">Request Demo</div>
-      </div>    
-    </div>
-  </div>
-  <div class="container">
-    <div class="stats-container">
-      <div class="stat-card">
-        <div class="stat-icon">
-          <img class="icon-image" src="assets/img/figure/Circle1.png" />
-          <div class="stat-value">100%</div>
-        </div>
-        <div class="stat-label">Client Satisfaction</div>
-      </div>
-    
-      <div class="stat-card">
-        <div class="stat-icon">
-          <img class="icon-image" src="assets/img/figure/Circle4.png" />
-          <div class="stat-value">1 700</div>
-        </div>
-        <div class="stat-label">Locations</div>
-      </div>
-    
-      <div class="stat-card">
-        <div class="stat-icon">
-          <img class="icon-image" src="assets/img/figure/Circle2.png" />
-          <div class="stat-value">95 K</div>
-        </div>
-        <div class="stat-label">Responded Reviews</div>
-      </div>
-    
-      <div class="stat-card">
-        <div class="stat-icon">
-          <img class="icon-image" src="assets/img/figure/Circle3.png" />
-          <div class="stat-value">24/7</div>
-        </div>
-        <div class="stat-label">Customer Support</div>
-      </div>
-    </div>
-    
-  </div>
-  <div class="container">
-    <div class="clients-section">
-      <div class="clients-title">Our Clients</div>
-      <div class="clients-logos">
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/moldpresa.svg" alt="Moldpresa" />
-        </div>
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/Asterra 1.svg" alt="Asterra" />
-        </div>
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/Logo-Hansa-png.svg" alt="Hansa" />
-        </div>
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/synevo_logo_horizontal.svg" alt="Synevo" />
-        </div>
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/Gravena-2.svg" alt="Gravena" />
-        </div>
-        <div class="client-logo">
-          <img class="client-image" src="assets/img/client/Alex-Host-png.svg" alt="Alex Host" />
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="section-heading">
-        We provide better services for your business.
-      </div>      
-    </div>
-    <div class="container">
-      <div class="info-cards">
-        <div class="info-card">
-          <div class="icon-wrapper">
-            <img class="icon" src="assets/img/icons/system-uicons_graph-box.svg" alt="Collecting Info Icon" />
-          </div>
-          <div class="card-title">Collecting Info</div>
-          <div class="card-description">
-            We approve the list of current locations on your site with all the attributes 
-            by uploading it to Google Maps.
-          </div>
-        </div>
-      
-        <div class="info-card">
-          <div class="icon-wrapper">
-            <img class="icon" src="assets/img/icons/uit_google.svg" alt="Google Verification Icon" />
-          </div>
-          <div class="card-title">Google Verification</div>
-          <div class="card-description">
-            We are launching mass network verification in Google Business and getting 
-            the rights to manage locations.
-          </div>
-        </div>
-      
-        <div class="info-card">
-          <div class="icon-wrapper">
-            <img class="icon" src="assets/img/icons/api.svg" 
-                 alt="PinoMap API Icon" />
-          </div>
-          <div class="card-title">PinoMap API</div>
-          <div class="card-description">
-            Create a personal account in the Google Business Network Management application.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="demo-section">
-        <div class="demo-container">
-          <div class="demo-content">
-            <div class="demo-title">Request Demo and test Pinomap for free</div>
-            <div class="demo-subtitle">Experience Pinomap software firsthand</div>
-            <ul class="demo-benefits">
-              <li class="benefit-item">
-                <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
-                <span>Gain real-time insights to make smarter inventory decisions.</span>
+          <div class="navbar__actions">
+            <ul class="navbar__menu">
+              <li>
+                <a href="/solutions">Solutions</a>
               </li>
-              <li class="benefit-item">
-                <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
-                <span>Free up capital by reducing excess stock and optimizing inventory levels.</span>
+              <li>
+                <a href="/products">Products</a>
               </li>
-              <li class="benefit-item">
-                <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
-                <span>Enhance your supply chain resilience to adapt quickly to market challenges.</span>
+              <li>
+                <a href="/cases">Cases</a>
               </li>
-              <li class="benefit-item">
-                <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
-                <span>Improve service levels and customer satisfaction through better inventory management.</span>
+              <li>
+                <a href="/tariffs">Tariffs</a>
+              </li>
+              <li>
+                <a href="/partners">Partners</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
               </li>
             </ul>
-            <div class="demo-cta">Join dozens of progressive businesses who increased their profits using Pinomap!</div>
+            <a
+              href="/login"
+              class="navbar__login"><span class="login">Log in</span><img class="user" src="assets/img/icons/user.svg" alt="User"></a>
+            <a
+              href="/request-demo"
+              class="navbar__demo">Request Demo</a>
           </div>
-          <div class="demo-form">
-            <form class="form">
-              <div class="form-group">
-                <label for="name">Name *</label>
-                <input type="text" id="name" name="name" class="form-input" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" class="form-input" required />
-              </div>
-              <div class="form-group">
-                <label for="website">Website</label>
-                <input type="url" id="website" name="website" class="form-input" />
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number *</label>
-                <div class="phone-input">
-                  <span class="country-code">+373</span>
-                  <input type="tel" id="phone" name="phone" class="form-input" required />
-                </div>
-              </div>
-              <div class="privacy-policy">
-                By completing and submitting the form, you will receive information, tips, and promotions from AGR.
-                To learn more about how AGR uses your information, see our 
-                <a href="#" class="privacy-link">Privacy Policy</a>.
-              </div>
-              <button type="submit" class="submit-button">Submit</button>
-            </form>
+        </nav>
+        <nav class="navbar navbar-mobile">
+          <div class="flex-reverse">
+            <div class="hamburger-menu" id="menu-toggle">
+              <img src="assets/img/icons/hamburger.svg" alt="hamburger Menu">
+            </div>
+            <div class="navbar__logo">
+              <img
+                class="navbar__logo-icon"
+                src="assets/img/logo.svg"
+                alt="Logo" />
+              <img
+                class="navbar__logo-text"
+                src="assets/img/logo-text.svg"
+                alt="Brand Name" />
+            </div>
+          </div>
+          <div class="navbar__actions">
+            <ul class="navbar__menu">
+              <li>
+                <a href="/solutions">Solutions</a>
+              </li>
+              <li>
+                <a href="/products">Products</a>
+              </li>
+              <li>
+                <a href="/cases">Cases</a>
+              </li>
+              <li>
+                <a href="/tariffs">Tariffs</a>
+              </li>
+              <li>
+                <a href="/partners">Partners</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+            </ul>
+            <a
+              href="/login"
+              class="navbar__login"><span class="login">Log in</span><img class="user" src="assets/img/icons/user.svg" alt="User"></a>
+            <a
+              href="/request-demo"
+              class="navbar__demo">Request Demo</a>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+    <div class="container">
+      <div class="hero-section">
+        <img class="hero-section__background" src="assets/img/background-header.png" alt="Digital Agency Background" />
+        <div class="hero-section__text">
+          A digital agency that helps businesses reach their full potential online
+        </div>
+        <div class="hero-section__button-container">
+          <a href="/request-demo" class="hero-section__button">Request Demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="text-block">
+          <div class="headline">
+            Helping businesses improve their online presence.
+          </div>
+          <div class="description">
+            With years of experience in SEO, digital marketing, and reputation
+            management, our team is dedicated to assisting clients in achieving
+            success. We take great pride in consistently delivering top-notch work.
           </div>
         </div>
-      </div>      
+        <div class="image-block-header">
+          <img class="image" src="assets/img/image-right.png" alt="SEO and Digital Marketing" />
+
+        </div>
+      </div>
     </div>
-  </div>
+    <div class="container">
+      <div class="api-card">
+        <div class="image-container">
+          <img
+            class="main-image desktop"
+            src="assets/img/Image-Left.png"
+            alt="Pinomap API Illustration" />
+          <img class="main-image mobile" src="assets/img/mobile/mobile-frame-1.png" alt="SEO and Digital Marketing" />
+        </div>
+        <div class="content-container">
+          <div class="icon-wrapper">
+            <img
+              class="api-icon"
+              src="assets/img/icons/api.svg"
+              alt="API Integration Icon" />
+          </div>
+          <div class="api-title">Pinomap API</div>
+          <div class="api-description">
+            Allows companies to efficiently work with various map services.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="business-card">
+        <div class="content-block">
+          <div class="icon-container">
+            <img class="google-icon" src="assets/img/icons/uit_google.svg" alt="Google Business Icon" />
+          </div>
+          <div class="title">Google Business Bulk</div>
+          <div class="description">
+            With bulk verification, a chain business is deemed eligible to add
+            locations without requiring additional manual verification.
+          </div>
+        </div>
+        <div class="image-block">
+          <img class="main-image desktop" src="assets/img/Image-Right-1.png" alt="Google Business Bulk Illustration" />
+          <img class="main-image mobile" src="assets/img/mobile/mobile-frame-2.png" alt="Google Business Bulk Illustration" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="review-card">
+        <div class="image-container">
+          <img class="review-main-image desktop" src="assets/img/image-left-1.png" alt="Review Management Illustration" />
+          <img class="main-image mobile" src="assets/img/mobile/mobile-frame-3.png" alt="Google Business Bulk Illustration" />
+        </div>
+        <div class="content-container">
+          <div class="icon-wrapper">
+            <img class="review-icon" src="assets/img/icons/circum_star.svg" alt="Review Star Icon" />
+          </div>
+          <div class="title">Review Management</div>
+          <div class="description">
+            Review management in the Google ecosystem comes down to managing your Google Business Profiles reviews.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="center">
+        <div class="button-wrapper">
+          <div class="button-text">Request Demo</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="stats-container">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <img class="icon-image" src="assets/img/figure/Circle1.png" />
+            <div class="stat-value">100%</div>
+          </div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <img class="icon-image" src="assets/img/figure/Circle4.png" />
+            <div class="stat-value">1 700</div>
+          </div>
+          <div class="stat-label">Locations</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <img class="icon-image" src="assets/img/figure/Circle2.png" />
+            <div class="stat-value">95 K</div>
+          </div>
+          <div class="stat-label">Responded Reviews</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon">
+            <img class="icon-image" src="assets/img/figure/Circle3.png" />
+            <div class="stat-value">24/7</div>
+          </div>
+          <div class="stat-label">Customer Support</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="clients-section">
+        <div class="clients-title">Our Clients</div>
+        <div class="clients-logos">
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/moldpresa.svg" alt="Moldpresa" />
+          </div>
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/Asterra 1.svg" alt="Asterra" />
+          </div>
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/Logo-Hansa-png.svg" alt="Hansa" />
+          </div>
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/synevo_logo_horizontal.svg" alt="Synevo" />
+          </div>
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/Gravena-2.svg" alt="Gravena" />
+          </div>
+          <div class="client-logo">
+            <img class="client-image" src="assets/img/client/Alex-Host-png.svg" alt="Alex Host" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-heading">
+          We provide better services for your business.
+        </div>
+      </div>
+      <div class="container">
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="icon-wrapper">
+              <img class="icon" src="assets/img/icons/system-uicons_graph-box.svg" alt="Collecting Info Icon" />
+            </div>
+            <div class="card-title">Collecting Info</div>
+            <div class="card-description">
+              We approve the list of current locations on your site with all the attributes
+              by uploading it to Google Maps.
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-wrapper">
+              <img class="icon" src="assets/img/icons/uit_google.svg" alt="Google Verification Icon" />
+            </div>
+            <div class="card-title">Google Verification</div>
+            <div class="card-description">
+              We are launching mass network verification in Google Business and getting
+              the rights to manage locations.
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-wrapper">
+              <img class="icon" src="assets/img/icons/api.svg"
+                alt="PinoMap API Icon" />
+            </div>
+            <div class="card-title">PinoMap API</div>
+            <div class="card-description">
+              Create a personal account in the Google Business Network Management application.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mobile-css">
+        <div class="demo-section">
+          <div class="demo-container">
+            <div class="demo-content">
+              <div class="demo-title">Request Demo and test Pinomap for free</div>
+              <div class="demo-subtitle">Experience Pinomap software firsthand</div>
+              <ul class="demo-benefits">
+                <li class="benefit-item">
+                  <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
+                  <span>Gain real-time insights to make smarter inventory decisions.</span>
+                </li>
+                <li class="benefit-item">
+                  <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
+                  <span>Free up capital by reducing excess stock and optimizing inventory levels.</span>
+                </li>
+                <li class="benefit-item">
+                  <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
+                  <span>Enhance your supply chain resilience to adapt quickly to market challenges.</span>
+                </li>
+                <li class="benefit-item">
+                  <img class="checkmark-icon" src="assets/img/icons/carbon_checkmark-outline.svg" alt="Checkmark" />
+                  <span>Improve service levels and customer satisfaction through better inventory management.</span>
+                </li>
+              </ul>
+              <div class="demo-cta">Join dozens of progressive businesses who increased their profits using Pinomap!</div>
+            </div>
+            <div class="demo-form">
+              <form class="form">
+                <div class="form-group">
+                  <label for="name">Name *</label>
+                  <input type="text" id="name" name="name" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="website">Website</label>
+                  <input type="url" id="website" name="website" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <div class="phone-input">
+                    <input type="tel" id="phone" name="phone" class="form-input" required />
+                  </div>
+                </div>
+                <div class="privacy-policy">
+                  By completing and submitting the form, you will receive information, tips, and promotions from AGR.
+                  To learn more about how AGR uses your information, see our
+                  <a href="#" class="privacy-link">Privacy Policy</a>.
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Контакты -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <img src="assets/img/icons/map.svg" class="social-icon" alt="Location" />
+              <span>Romania, Brașov, Str. Ioan Popasu 48</span>
+            </div>
+            <div class="contact-item">
+              <img src="assets/img/icons/phone.svg" class="social-icon" alt="Phone" />
+              <span>+40 726-800-161</span>
+            </div>
+            <div class="contact-item">
+              <img src="assets/img/icons/mail.svg" class="social-icon" alt="Email" />
+              <span>info@pinomap.com</span>
+            </div>
+            <div class="social-media">
+              <span>Follow Us:</span>
+              <img src="assets/img/icons/Facebook.svg" class="social-icon" alt="Facebook" />
+              <img src="assets/img/icons/Google.svg" class="social-icon" alt="Google" />
+            </div>
+          </div>
+
+          <!-- Навигация -->
+          <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <!-- Политики -->
+          <div class="footer-policies">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+
+          <!-- Форма подписки -->
+          <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Stay up-to-date with the latest trends in digital marketing and receive exclusive tips and insights by subscribing to our newsletter.</p>
+            <div class="footer-flex-input">
+              <input type="email" placeholder="Enter your email" required />
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      initialCountry: "md", // По умолчанию Молдова
+      separateDialCode: true, // Отдельный код страны
+      preferredCountries: ["us", "gb", "md", "de", "fr"], // Приоритетные страны
+      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.0/build/js/utils.js"
+    });
+  });
+</script>
 
 </html>

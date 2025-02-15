@@ -1,0 +1,184 @@
+@media (max-width: 920px) {
+  .hero-section {
+    flex-flow: column;
+    align-items: start;
+    justify-content: flex-end;
+    border-radius: 0;
+    margin: 0;
+  }
+  .login {
+    display: none;
+  }
+  .user {
+    display: block;
+  }
+  .navbar-desktop {
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+    padding: 0 20px;
+    margin: 12px 0;
+  }
+  .content-wrapper {
+    overflow: hidden;
+  }
+  .navbar__menu {
+    display: none;
+  }
+  .navbar__login {
+    padding: 0;
+    border: none;
+  }
+  .navbar__demo {
+    padding: 3px 16px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .navbar__logo-text {
+    width: 70px;
+    height: 20px;
+  }
+  .api-card,
+  .review-card {
+    flex-flow: wrap;
+    gap: 0;
+    padding: 0;
+  }
+  .review-card {
+    margin-bottom: 50px;
+  }
+  .headline {
+    z-index: 999;
+  }
+  .image-block-header {
+    position: absolute;
+    right: -35%;
+    height: 341px;
+  }
+  .business-card {
+    flex-flow: wrap-reverse;
+    padding: 0;
+  }
+  .icon-wrapper,
+  .icon-container {
+    width: 64px;
+    height: 64px;
+  }
+  .api-icon,
+  .google-icon,
+  .review-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .image-block {
+    padding: 0;
+    border-radius: 0;
+  }
+  .content-container,
+  .content-block {
+    margin: 0 16px;
+    position: relative;
+    top: -35px;
+    z-index: 99;
+  }
+  .api-description,
+  .description {
+    width: auto;
+  }
+  .flex-reverse {
+    display: flex;
+    flex-flow: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .hamburger-menu img {
+    display: flex;
+  }
+  .navbar__logo-icon {
+    height: 29px;
+  }
+  .stats-container {
+    flex-flow: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+  .image-container {
+    flex: none;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+  }
+  main {
+    padding: 0;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .main-image {
+    max-width: none;
+  }
+  .info-cards {
+    flex-flow: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .info-cards .icon-wrapper {
+    width: 96px;
+    height: 96px;
+  }
+  .hero-section__button-container {
+    width: 100%;
+    padding: 12.5px 0;
+  }
+  .clients-title {
+    width: auto;
+    text-align: center;
+  }
+  .clients-section {
+    background-position: center;
+    width: auto;
+    border-radius: 0;
+    background-size: cover;
+  }
+  .clients-logos {
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  .demo-form {
+    width: 100%;
+  }
+  .demo-section {
+    padding: 32px 16px;
+    background-size: cover;
+    background-position: center;
+    background: url(../img/background-purple-mobile.png);
+    border-radius: 0px;
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .demo-container {
+    flex-flow: column;
+  }
+  .mobile-css {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .demo-cta {
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding: 32px;
+  }
+  .footer-content {
+    flex-flow: column;
+  }
+}
