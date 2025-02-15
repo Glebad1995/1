@@ -205,4 +205,8 @@
   .footer-content {
     flex-flow: column;
   }
+  .iti__country-list {
+    max-width: 350px;
+    width: 100%;
+  }
 }
